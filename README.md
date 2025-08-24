@@ -65,7 +65,7 @@
         <div class="relative flex justify-center">
           <!-- Profile image with white background card -->
           <div class="rounded-3xl bg-white p-3 shadow-xl border border-slate-200">
-            <img src="profile.png" alt="Karim Bel Hadj Ali" class="rounded-2xl object-cover w-[360px] h-[480px]" />
+            <img src="profile.PNG" alt="Karim Bel Hadj Ali" class="rounded-2xl object-cover w-[360px] h-[480px]" />
           </div>
         </div>
       </div>
