@@ -126,7 +126,7 @@
   </div>
 
   <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
-    <img src="kuhn & partner-logo.png" alt="Kuhn &amp; Partner" class="h-12 object-contain mb-2" />
+    <img src="Kuhn & Partner-logo.png" alt="Kuhn &amp; Partner" class="h-12 object-contain mb-2" />
     <span class="text-sm font-medium text-slate-700">Kuhn &amp; Partner</span>
   </div>
 
