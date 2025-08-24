@@ -162,15 +162,14 @@
         </div>
       </div>
       <div class="mt-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-        <h3 class="font-bold">Sprachen</h3>
-        <p class="mt-2 text-sm text-slate-700">
-Deutsch (verhandlungssicher),
-Englisch (fließend), 
-Französisch & Arabisch (Muttersprache), 
-Russisch & Spanisch (Grundkenntnisse)
-</p>
-      </div>
-    </div>
+  <h3 class="font-bold">Sprachen</h3>
+  <ul class="mt-2 list-disc list-inside text-sm text-slate-700 space-y-1">
+    <li>Deutsch (verhandlungssicher)</li>
+    <li>Englisch (fließend)</li>
+    <li>Französisch & Arabisch (Muttersprache)</li>
+    <li>Russisch & Spanisch (Grundkenntnisse)</li>
+  </ul>
+</div>
   </section>
 
   <!-- Kontakt -->
