@@ -202,7 +202,6 @@
   <li><strong>Adresse:</strong> Stammestraße 48a, 30459 Hannover</li>
   <li><strong>Verfügbarkeit:</strong> ab sofort</li>
 </ul>
-        </aside>
         
         </aside>
       </div>
