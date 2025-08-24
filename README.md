@@ -144,10 +144,16 @@
             <li>Scrum</li>
             <li>Kanban</li>
               <li>PMO</li>
-            <li>VOB/A · VOB/B · HOAI</li>
-            <li>Ausschreibung & Vergabe</li>
-            <li>Budgetierung & Forecast</li>
-            <li>Procurement & Lieferanten</li>
+            <li>VOB/A</li>
+<li>VOB/B</li>
+<li>HOAI</li>
+
+            <li>Ausschreibung</li>
+           <li>Vergabe</li>
+            <li>Budgetierung</li>
+            <li>Forecast</li>
+            <li>Procurement</li>
+            <li>Lieferanten</li>
             <li>Prozessmodellierung</li>
           </ul>
         </div>
