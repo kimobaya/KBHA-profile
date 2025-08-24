@@ -116,7 +116,7 @@
 <button id="logosNext" aria-label="Weiter" class="p-2 rounded-lg border border-slate-200 hover:bg-slate-50">&rarr;</button>
 </div>
 </div>
-<p class="mt-3 text-slate-600">Auswahl von Stationen und Projekten – Logos sind Platzhalter und können durch Originale ersetzt werden.</p>
+<p class="mt-3 text-slate-600"></p>
 
 <div id="logoScroller" class="logo-track mt-6 overflow-x-auto flex gap-4 snap-x">
 <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Excellence AG</div>
@@ -128,7 +128,6 @@
 <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Lyreco</div>
 <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Page2Flip</div>
 <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Aptum</div>
-<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Hochschule Hannover</div>
 </div>
 </div>
 </section>
