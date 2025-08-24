@@ -194,7 +194,7 @@
     <li>Russisch & Spanisch (Grundkenntnisse)</li>
   </ul>
 </div>
-  </section>
+  
 
   <!-- Kontakt -->
   <section id="kontakt" class="py-16 md:py-24 bg-white border-t border-slate-200">
