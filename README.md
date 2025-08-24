@@ -141,7 +141,9 @@
         <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
           <h3 class="font-bold">Methoden & Domänen</h3>
           <ul class="mt-3 grid grid-cols-2 gap-2 text-sm text-slate-700">
-            <li>Scrum · Kanban · PMO</li>
+            <li>Scrum</li>
+            <li>Kanban</li>
+              <li>PMO</li>
             <li>VOB/A · VOB/B · HOAI</li>
             <li>Ausschreibung & Vergabe</li>
             <li>Budgetierung & Forecast</li>
@@ -152,7 +154,7 @@
         <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
           <h3 class="font-bold">Tools & Software</h3>
           <ul class="mt-3 grid grid-cols-2 gap-2 text-sm text-slate-700">
-            <li>MS Office ·</li>
+            <li>MS Office</li>
             <li>Power BI</li>
             <li>SAP S/4HANA</li>
             <li>iTWO</li> 
