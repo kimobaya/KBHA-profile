@@ -119,18 +119,29 @@
 <p class="mt-3 text-slate-600"></p>
 
 <div id="logoScroller" class="logo-track mt-6 overflow-x-auto flex gap-4 snap-x">
-<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Excellence AG</div>
-<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">kuhn+partner Ingenieure</div>
-<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Soli Infratechnik</div>
-<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Wissenswerft</div>
-<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">VW Autostadt (SpAPP)</div>
-<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">KPMG</div>
-<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Lyreco</div>
-<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Page2Flip</div>
-<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Aptum</div>
+
+  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
+    <img src="vw-logo.png" alt="Volkswagen" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">Volkswagen</span>
+  </div>
+
+  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
+    <img src="kuhn & partner-logo.png" alt="Kuhn &amp; Partner" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">Kuhn &amp; Partner</span>
+  </div>
+
+  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
+    <img src="excellence-logo.png" alt="Excellence AG" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">Excellence AG</span>
+  </div>
+
+  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
+    <img src="wissenswerft-logo.png" alt="Wissenswerft" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">Wissenswerft</span>
+  </div>
+
 </div>
-</div>
-</section>
+
 
   <!-- Skills -->
   <section id="skills" class="py-16 md:py-24">
