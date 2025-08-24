@@ -108,49 +108,30 @@
 
   <!-- Referenzen / Logos (auto sliding) -->
   <section id="referenzen" class="py-16 md:py-24 bg-white border-y border-slate-200/70">
-    <div class="max-w-6xl mx-auto px-4">
-      <div class="flex items-end justify-between gap-4">
-        <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Unternehmen</h2>
-        <div class="flex items-center gap-2">
-          <button id="logosPrev" aria-label="Zurück" class="p-2 rounded-lg border border-slate-200 hover:bg-slate-50">&larr;</button>
-          <button id="logosNext" aria-label="Weiter" class="p-2 rounded-lg border border-slate-200 hover:bg-slate-50">&rarr;</button>
-        </div>
-      </div>
-      <p class="mt-3 text-slate-600">Auswahl von Stationen und Projekten – Logos sind Platzhalter und können durch Originale ersetzt werden.</p>
+<div class="max-w-6xl mx-auto px-4">
+<div class="flex items-end justify-between gap-4">
+<h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Unternehmen & Projekte</h2>
+<div class="flex items-center gap-2">
+<button id="logosPrev" aria-label="Zurück" class="p-2 rounded-lg border border-slate-200 hover:bg-slate-50">&larr;</button>
+<button id="logosNext" aria-label="Weiter" class="p-2 rounded-lg border border-slate-200 hover:bg-slate-50">&rarr;</button>
+</div>
+</div>
+<p class="mt-3 text-slate-600">Auswahl von Stationen und Projekten – Logos sind Platzhalter und können durch Originale ersetzt werden.</p>
 
-      <div id="logoScroller" class="logo-track mt-6 overflow-x-auto flex gap-4 snap-x">
-        <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Excellence AG</div>
-        <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">kuhn+partner Ingenieure</div>
-        <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Soli Infratechnik</div>
-        <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Wissenswerft</div>
-        </div>
-        <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">KPMG</div>
-        <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Lyreco</div>
-        <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Page2Flip</div>
-        <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Aptum</div>
-        <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Hochschule Hannover</div>
-      </div>
-    </div>
-  </section>
-          <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Projekte</h2>
-        <div class="flex items-center gap-2">
-          <button id="logosPrev" aria-label="Zurück" class="p-2 rounded-lg border border-slate-200 hover:bg-slate-50">&larr;</button>
-          <button id="logosNext" aria-label="Weiter" class="p-2 rounded-lg border border-slate-200 hover:bg-slate-50">&rarr;</button>
-        </div>
-      </div>
-      <p class="mt-3 text-slate-600">Auswahl von Stationen und Projekten – Logos sind Platzhalter und können durch Originale ersetzt werden.</p>
-
-      <div id="logoScroller" class="logo-track mt-6 overflow-x-auto flex gap-4 snap-x">
-        <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">i-unit group APP</div>
-        <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Schaufenster APP Ingenieure</div>
-        <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">MyHoney</div>
-        <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Barthauer APP</div>
-        <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">ECOROLL MechKon</div>
-        <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">page2flip APP</div>
-        <div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">bsw APP</div>
-      </div>
-    </div>
-  </section>
+<div id="logoScroller" class="logo-track mt-6 overflow-x-auto flex gap-4 snap-x">
+<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Excellence AG</div>
+<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">kuhn+partner Ingenieure</div>
+<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Soli Infratechnik</div>
+<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Wissenswerft</div>
+<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">VW Autostadt (SpAPP)</div>
+<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">KPMG</div>
+<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Lyreco</div>
+<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Page2Flip</div>
+<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Aptum</div>
+<div class="logo-card min-w-[180px] shrink-0 rounded-2xl border border-slate-200 bg-slate-50 p-4 flex items-center justify-center">Hochschule Hannover</div>
+</div>
+</div>
+</section>
 
   <!-- Skills -->
   <section id="skills" class="py-16 md:py-24">
