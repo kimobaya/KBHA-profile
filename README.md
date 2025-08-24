@@ -203,7 +203,7 @@
   <li><strong>Verfügbarkeit:</strong> ab sofort</li>
 </ul>
         </aside>
-        </aside>
+        
         </aside>
       </div>
     </div>
