@@ -278,3 +278,7 @@
     scroller.addEventListener('mouseleave', ()=> auto = setInterval(()=>slideBy(1), 2500));
   </script>
 
+  <!-- Chatbot: Tidio -->
+  <script src="//code.tidio.co/6setpokwm863fzae0rw2llyvz9acescd.js" async></script>
+</body>
+</html>
