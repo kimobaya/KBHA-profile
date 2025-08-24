@@ -40,7 +40,7 @@
   <section id="top" class="relative overflow-hidden">
     <div class="absolute inset-0 bg-center bg-cover" style="background-image:url('consulting-bg.jpg')"></div>
     <div class="hero-overlay"></div>
-    <div class="max-w-6xl mx-auto px-4 py-16 md:py-24 relative">
+    <div class="max-w-6xl mx-auto px-6 py-16 md:py-24 relative">
       <div class="grid lg:grid-cols-2 gap-10 items-center">
         <div>
           <span class="inline-block mb-4 text-xs font-semibold tracking-wider uppercase text-blue-700 bg-blue-100 rounded-full px-3 py-1">Verfügbar ab sofort</span>
@@ -48,7 +48,7 @@
           <p class="mt-5 text-slate-700 max-w-2xl">Industrieerfahrung in Software, Batterietechnik und Bau. Fokus auf Projektmanagement (klassisch & agil), Supply Chain, Controlling sowie Vertrags- & Nachtragsmanagement (VOB/HOAI). Deutschlandweit, Schweiz & Dubai – remote oder vor Ort.</p>
           <p class="mt-3 text-slate-800 font-semibold">Teilnahme an <span class="text-blue-700">40+ Projekten</span> in verschiedenen Branchen.</p>
           <div class="mt-6 flex flex-wrap gap-3">
-            <a href="mailto:karim.belhajali@icloud.com" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 text-white font-semibold shadow hover:bg-black">
+            <a href="mailto:karim.belhajali@icloud.com" class="inline-flex items-center gap-2 px-6 py-2 rounded-xl bg-slate-900 text-white font-semibold shadow hover:bg-black">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M1.5 5.25A2.25 2.25 0 0 1 3.75 3h16.5A2.25 2.25 0 0 1 22.5 5.25v13.5A2.25 2.25 0 0 1 20.25 21H3.75A2.25 2.25 0 0 1 1.5 18.75V5.25Zm2.4.75 7.35 5.145a.75.75 0 0 0 .9 0L19.5 6"/></svg>
               karim.belhajali@icloud.com
             </a>
@@ -56,7 +56,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M2.25 6.75A4.5 4.5 0 0 1 6.75 2.25h.56c.5 0 .95.3 1.12.76l1.26 3.49a1.25 1.25 0 0 1-.36 1.37L8.2 9.05a12 12 0 0 0 6.75 6.75l1.17-1.12c.37-.35.92-.47 1.37-.36l3.49 1.26c.46.17.76.62.76 1.12v.56a4.5 4.5 0 0 1-4.5 4.5h-.38C8.69 21.76 2.24 15.31 2.24 7.13v-.38Z"/></svg>
               +49 172 8890424
             </a>
-            <span class="inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-slate-300 bg-white font-semibold">
+            <span class="inline-flex items-center gap-2 px-6 py-2 rounded-xl border border-slate-300 bg-white font-semibold">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.25c-4.28 0-7.75 3.47-7.75 7.75 0 5.81 7.75 11.75 7.75 11.75s7.75-5.94 7.75-11.75c0-4.28-3.47-7.75-7.75-7.75Zm0 10.25a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z"/></svg>
               Hannover · Stammestraße 48a
             </span>
@@ -74,7 +74,7 @@
 
   <!-- Leistungen -->
   <section id="leistungen" class="py-16 md:py-24">
-    <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-6xl mx-auto px-6">
       <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Leistungen</h2>
       <p class="mt-3 text-slate-600 max-w-3xl">Ich übernehme End-to-End Verantwortung von der Anforderungsaufnahme über Ausschreibung/Procurement bis zur Umsetzung und dem Controlling. Transparent, wirksam und skalierbar.</p>
       <div class="mt-8 grid md:grid-cols-3 gap-6">
@@ -135,7 +135,7 @@
 
   <!-- Skills -->
   <section id="skills" class="py-16 md:py-24">
-    <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-6xl mx-auto px-6">
       <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Skills & Tech-Stack</h2>
       <div class="mt-8 grid md:grid-cols-2 gap-6">
         <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
@@ -170,7 +170,7 @@
 
   <!-- Kontakt -->
   <section id="kontakt" class="py-16 md:py-24 bg-white border-t border-slate-200">
-    <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-6xl mx-auto px-6">
       <div class="grid lg:grid-cols-3 gap-10">
         <div class="lg:col-span-2">
           <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Kontakt</h2>
@@ -180,7 +180,7 @@
             <input required name="email" type="email" placeholder="Ihre E-Mail" class="w-full rounded-xl border border-slate-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-400" />
             <input name="firma" placeholder="Firma (optional)" class="w-full rounded-xl border border-slate-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-400 md:col-span-2" />
             <textarea required name="nachricht" placeholder="Kurz Ihr Anliegen" rows="4" class="w-full rounded-xl border border-slate-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-400 md:col-span-2"></textarea>
-            <button class="inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-blue-600 text-white font-semibold shadow hover:bg-blue-700 md:col-span-2">Nachricht senden</button>
+            <button class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-blue-600 text-white font-semibold shadow hover:bg-blue-700 md:col-span-2">Nachricht senden</button>
           </form>
           <p id="formNote" class="mt-3 text-xs text-slate-500">Diese Demo sendet keine E-Mails – sie öffnet Ihr E-Mail-Programm mit einer vorgefüllten Nachricht.</p>
         </div>
@@ -199,7 +199,7 @@
 
   <!-- Footer -->
   <footer class="py-10">
-    <div class="max-w-6xl mx-auto px-4 text-sm text-slate-500 flex flex-col md:flex-row items-center justify-between gap-3">
+    <div class="max-w-6xl mx-auto px-6 text-sm text-slate-500 flex flex-col md:flex-row items-center justify-between gap-3">
       <p>&copy; <span id="year"></span> Karim Bel Hadj Ali. Alle Rechte vorbehalten.</p>
       <div class="flex items-center gap-3">
         <a class="hover:text-slate-700" href="#top">Impressum (Platzhalter)</a>
