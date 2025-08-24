@@ -152,12 +152,18 @@
         <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
           <h3 class="font-bold">Tools & Software</h3>
           <ul class="mt-3 grid grid-cols-2 gap-2 text-sm text-slate-700">
-            <li>MS Office · Power BI</li>
+            <li>MS Office ·</li>
+            <li>Power BI</li>
             <li>SAP S/4HANA</li>
-            <li>iTWO · Thinkproject · BIM</li>
-            <li>Jira · Confluence</li>
-            <li>WordPress · Xcode</li>
-            <li>Matlab · SolidWorks</li>
+            <li>iTWO</li> 
+            <li>Thinkproject</li>
+            <li>BIM</li>
+            <li>Jira</li>
+            <li>Confluence</li>
+            <li>WordPress</li>
+            <li> Xcode</li>
+            <li>Matlab</li>
+            <li> SolidWorks</li>
           </ul>
         </div>
       </div>
