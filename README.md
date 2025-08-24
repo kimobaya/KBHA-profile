@@ -163,7 +163,12 @@
       </div>
       <div class="mt-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
         <h3 class="font-bold">Sprachen</h3>
-        <p class="mt-2 text-sm text-slate-700">Deutsch (verhandlungssicher), Englisch (fließend), Französisch & Arabisch (Muttersprache), Russisch & Spanisch (Grundkenntnisse)</p>
+        <p class="mt-2 text-sm text-slate-700">
+Deutsch (verhandlungssicher),
+Englisch (fließend), 
+Französisch & Arabisch (Muttersprache), 
+Russisch & Spanisch (Grundkenntnisse)
+</p>
       </div>
     </div>
   </section>
