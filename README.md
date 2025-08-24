@@ -187,8 +187,10 @@
         <aside class="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
           <h3 class="font-bold">Direktkontakt</h3>
           <ul class="mt-3 space-y-2 text-sm">
-            <li><strong>E-Mail:</strong> <a class="text-blue-700 underline" href="mailto:karim.belhajali@icloud.com">karim.belhajali@icloud.com</a></li>
-            <li><strong>Telefon:</strong> <a class="text-blue-700 underline" href="tel:+491728890424">+49 172 8890424</a></li>
+           <div class="flex gap-6">
+  <div><strong>E-Mail:</strong> <a href="mailto:karim.belhajali@icloud.com">karim.belhajali@icloud.com</a></div>
+  <div><strong>Telefon:</strong> <a href="tel:+491728890424">+49 172 8890424</a></div>
+</div
             <li><strong>Adresse:</strong> Stammestraße 48a, 30459 Hannover</li>
             <li><strong>Verfügbarkeit:</strong> ab sofort</li>
           </ul>
