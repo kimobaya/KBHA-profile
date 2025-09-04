@@ -360,4 +360,94 @@
 
   <!-- Chatbot: Tidio -->
   <script src="//code.tidio.co/6setpokwm863fzae0rw2llyvz9acescd.js" async></script>
+<!-- === FUN BANNER + MINI GAME === -->
+<section id="fun" style="max-width:1250px;margin:40px auto;padding:0 16px;">
+  <!-- Banner -->
+  <div style="background:linear-gradient(90deg,#0059c9,#0083ff);color:#fff;
+              border-radius:14px;padding:20px;text-align:center;margin-bottom:20px">
+    <h2 style="margin:0;font-size:20px;font-weight:600">
+      So – ist dir langweilig und wartest auf meine Antwort?<br/>
+      Kein Thema, ich habe an dich gedacht! 🎮
+    </h2>
+  </div>
+
+  <!-- Mini-Game -->
+  <div style="background:#121a24;border:1px solid #223140;border-radius:14px;padding:16px;">
+    <h3 style="margin:0 0 10px;font-size:16px;color:#0083ff">Mini-Game: Runner</h3>
+    <p style="color:#9fb0c3;font-size:12px;margin:0 0 10px">
+      Steuerung: <b>Leertaste</b>/<b>↑</b> oder <b>Klick/Tap</b> ins Spielfeld. <b>P</b> für Pause.
+    </p>
+    <canvas id="runnerCanvas" width="900" height="200"
+      style="width:100%;height:auto;display:block;background:#0e141b;border:2px solid #0059c9;border-radius:10px;touch-action:none"></canvas>
+
+    <!-- On-Screen Controls -->
+    <div style="display:flex;gap:10px;justify-content:center;margin-top:10px;flex-wrap:wrap">
+      <button id="btnJump"
+        style="padding:10px 16px;border-radius:10px;border:none;
+               background:linear-gradient(90deg,#0059c9,#0083ff);
+               color:#fff;cursor:pointer;font-weight:600">
+        ⬆️ Jump
+      </button>
+      <button id="btnPause"
+        style="padding:10px 16px;border-radius:10px;border:none;
+               background:linear-gradient(90deg,#0059c9,#0083ff);
+               color:#fff;cursor:pointer;font-weight:600">
+        ⏸️ Pause
+      </button>
+    </div>
+  </div>
+</section>
+
+<script>
+(()=>{ // Runner Game
+  const cvs=document.getElementById('runnerCanvas'),ctx=cvs.getContext('2d');
+  const btnJump=document.getElementById('btnJump'),btnPause=document.getElementById('btnPause');
+  const G={groundY:160,speed:6,gravity:0.7,jumpV:-12.5,t:0,paused:false,started:false,
+           score:0,hi:Number(localStorage.getItem('runner_hi')||0),
+           obstacles:[],particles:[],cloudT:0,cloudList:[],nextObs:40};
+  const hero={x:50,y:130,w:28,h:30,vy:0,onGround:true,blink:0};
+  const rnd=(a,b)=>Math.random()*(b-a)+a;
+  function reset(){G.speed=6;G.score=0;G.t=0;G.obstacles.length=0;G.particles.length=0;G.cloudList.length=0;
+    hero.x=50;hero.y=G.groundY-hero.h;hero.vy=0;hero.onGround=true;G.started=false;G.nextObs=40;
+    spawnClouds(6);}
+  function spawnObstacle(){const h=Math.round(rnd(20,45)),w=Math.round(rnd(14,26)),gapBoost=Math.max(0,(G.speed-6)*6);
+    G.obstacles.push({x:cvs.width+20,y:G.groundY-h,w,h,hit:false,type:(Math.random()<0.2?'double':'single')});
+    G.nextObs=G.t+Math.round(rnd(50-gapBoost,95-gapBoost));}
+  function spawnClouds(n=1){for(let i=0;i<n;i++){G.cloudList.push({x:rnd(0,cvs.width),y:rnd(10,60),s:rnd(0.3,0.8)});}}
+  function spawnDust(x,y,count=4){for(let i=0;i<count;i++){G.particles.push({x,y,vx:rnd(-1,1),vy:rnd(-2,-0.5),life:rnd(12,22)});}}
+  function jump(){if(!G.started){G.started=true;return;}if(hero.onGround){hero.vy=G.jumpV;hero.onGround=false;spawnDust(hero.x+hero.w/2,hero.y+hero.h,6);}}
+  function togglePause(){G.paused=!G.paused;}
+  addEventListener('keydown',e=>{if(e.code==='Space'||e.code==='ArrowUp'){e.preventDefault();jump();}if(e.key==='p'||e.key==='P'){togglePause();}},{passive:false});
+  cvs.addEventListener('pointerdown',jump);btnJump.addEventListener('click',jump);btnPause.addEventListener('click',togglePause);
+  const collide=(a,b)=>!(a.x+a.w<b.x||a.x>b.x+b.w||a.y+a.h<b.y||a.y>b.y+b.h);
+  function drawGround(){ctx.strokeStyle='#223140';ctx.beginPath();ctx.moveTo(0,G.groundY+0.5);ctx.lineTo(cvs.width,G.groundY+0.5);ctx.stroke();}
+  function drawHero(){ctx.fillStyle='#0083ff';ctx.fillRect(hero.x,hero.y,hero.w,hero.h);
+    const phase=Math.sin(G.t*0.3);ctx.fillStyle='#4da9ff';
+    ctx.fillRect(hero.x+4,hero.y+hero.h-6,6,6+phase*2);
+    ctx.fillRect(hero.x+hero.w-10,hero.y+hero.h-6,6,6-phase*2);
+    hero.blink=(hero.blink+1)%120;const eyeOpen=hero.blink<110;
+    ctx.fillStyle=eyeOpen?'#0b0f14':'#121a24';
+    ctx.fillRect(hero.x+8,hero.y+8,3,eyeOpen?3:1);
+    ctx.fillRect(hero.x+hero.w-12,hero.y+8,3,eyeOpen?3:1);}
+  function drawObstacle(o){ctx.fillStyle='#2ea043';ctx.fillRect(o.x,o.y,o.w,o.h);}
+  function drawCloud(c){ctx.fillStyle='#1a2230';ctx.beginPath();ctx.arc(c.x,c.y,12*c.s,0,Math.PI*2);ctx.fill();}
+  function drawHUD(){ctx.fillStyle='#9fb0c3';ctx.font='12px Inter';ctx.fillText(`Score: ${G.score}`,12,16);ctx.fillText(`High: ${G.hi}`,12,32);}
+  function step(){if(!G.paused){G.t++;if(G.t%300===0)G.speed=Math.min(G.speed+0.35,14);
+    if(G.cloudT--<=0){spawnClouds(1);G.cloudT=Math.round(rnd(80,160));}
+    if(G.t>=G.nextObs&&G.started)spawnObstacle();
+    if(!hero.onGround){hero.vy+=G.gravity;hero.y+=hero.vy;
+      if(hero.y>=G.groundY-hero.h){hero.y=G.groundY-hero.h;hero.vy=0;hero.onGround=true;spawnDust(hero.x+hero.w/2,hero.y+hero.h,4);}}
+    for(let i=G.obstacles.length-1;i>=0;i--){const o=G.obstacles[i];o.x-=G.speed;if(o.x+o.w<0){G.obstacles.splice(i,1);continue;}
+      if(collide(hero,o)){hero.vy=-8;hero.onGround=false;if(G.score>G.hi){G.hi=G.score;localStorage.setItem('runner_hi',String(G.hi));}reset();break;}
+      if(!o.hit&&o.x+o.w<hero.x){o.hit=true;G.score++;}}
+    for(let i=G.particles.length-1;i>=0;i--){const p=G.particles[i];p.x+=p.vx;p.y+=p.vy;p.vy+=0.15;if(--p.life<=0)G.particles.splice(i,1);}}
+    ctx.clearRect(0,0,cvs.width,cvs.height);
+    G.cloudList.forEach(drawCloud);drawGround();G.obstacles.forEach(drawObstacle);
+    ctx.fillStyle='#415a77';G.particles.forEach(p=>ctx.fillRect(p.x,p.y,2,2));
+    drawHero();drawHUD();requestAnimationFrame(step);}
+  document.addEventListener('visibilitychange',()=>{G.paused=document.hidden||G.paused;});
+  reset();step();
+})();
+</script>
+<!-- === / FUN BANNER + MINI GAME === -->
 
