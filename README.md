@@ -48,7 +48,7 @@
         <div>
           <span class="inline-block mb-4 text-xs font-semibold tracking-wider uppercase text-blue-700 bg-blue-100 rounded-full px-3 py-1">Verfügbar ab sofort</span>
           <h1 class="text-3xl md:text-5xl font-extrabold leading-tight tracking-tight">Karim Bel Hadj Ali<br><span class="text-blue-700">Freelance Projekt- & Supply-Chain-Management</span></h1>
-          <p class="mt-5 text-slate-700 max-w-2xl">Industrieerfahrung in Software, Batterietechnik und Bau. Fokus auf Projektmanagement (klassisch & agil), Supply Chain, Controlling sowie Vertrags- & Nachtragsmanagement (VOB/HOAI). Deutschlandweit, Schweiz & Dubai – remote oder vor Ort.</p>
+          <p class="mt-5 text-slate-700 max-w-2xl">Industrieerfahrung in Software, Batterietechnik und Bau. Fokus auf Projektmanagement (klassisch & agil), Supply Chain, Controlling sowie Vertrags- & Nachtragsmanagement (VOB/HOAI). Deutschland, Frankreich, Schweiz & Dubai – remote oder vor Ort.</p>
           <p class="mt-3 text-slate-800 font-semibold">Teilnahme an <span class="text-blue-700">40+ Projekten</span> in verschiedenen Branchen.</p>
           <div class="mt-6 flex flex-wrap gap-3">
             <a href="mailto:karim.belhajali@icloud.com" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 text-white font-semibold shadow hover:bg-black">
