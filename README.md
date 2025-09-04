@@ -309,55 +309,7 @@
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="py-10">
-    <div class="max-w-6xl mx-auto px-4 text-sm text-slate-500 flex flex-col md:flex-row items-center justify-between gap-3">
-      <p>&copy; <span id="year"></span> Karim Bel Hadj Ali. Alle Rechte vorbehalten.</p>
-      <div class="flex items-center gap-3">
-        <a class="hover:text-slate-700" href="#top">Impressum (Platzhalter)</a>
-        <span aria-hidden="true">·</span>
-        <a class="hover:text-slate-700" href="#top">Datenschutz (Platzhalter)</a>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    // Footer year
-    document.getElementById('year').textContent = new Date().getFullYear();
-
-    // Contact form: open mailto with prefill
-    function handleSubmit(e) {
-      e.preventDefault();
-      const data = Object.fromEntries(new FormData(e.target).entries());
-      const subject = encodeURIComponent('Projektanfrage – ' + (data.name || '')); 
-      const body = encodeURIComponent(
-        `Hallo Karim,\n\n` +
-        `mein Name: ${data.name || ''}\n` +
-        `E-Mail: ${data.email || ''}\n` +
-        `Firma: ${data.firma || ''}\n\n` +
-        `Anliegen: ${data.nachricht || ''}\n\n` +
-        `Beste Grüße`
-      );
-      window.location.href = `mailto:karim.belhajali@icloud.com?subject=${subject}&body=${body}`;
-    }
-
-    // Logo scroller buttons + auto slide
-    const scroller = document.getElementById('logoScroller');
-    const prevBtn = document.getElementById('logosPrev');
-    const nextBtn = document.getElementById('logosNext');
-
-    function slideBy(dir=1){
-      scroller.scrollBy({ left: 220 * dir, behavior: 'smooth' });
-    }
-    prevBtn.addEventListener('click', () => slideBy(-1));
-    nextBtn.addEventListener('click', () => slideBy(1));
-
-    // Auto slide & loop perception
-    let auto = setInterval(()=>slideBy(1), 2500);
-    scroller.addEventListener('mouseenter', ()=> clearInterval(auto));
-    scroller.addEventListener('mouseleave', ()=> auto = setInterval(()=>slideBy(1), 2500));
-  </script>
-
+  
   <!-- Chatbot: Tidio -->
   <script src="//code.tidio.co/6setpokwm863fzae0rw2llyvz9acescd.js" async></script>
 <!-- === FUN BANNER + MINI GAME === -->
@@ -366,8 +318,9 @@
   <div style="background:linear-gradient(90deg,#0059c9,#0083ff);color:#fff;
               border-radius:14px;padding:20px;text-align:center;margin-bottom:20px">
     <h2 style="margin:0;font-size:20px;font-weight:600">
-      So – ist dir langweilig und wartest auf meine Antwort?<br/>
-      Kein Thema, ich habe an dich gedacht! 🎮
+      Wartezeit? Kein Stress! 🎮
+<br/>
+     Zock’ ne Runde, bis ich antworte 🚀
     </h2>
   </div>
 
@@ -450,4 +403,52 @@
 })();
 </script>
 <!-- === / FUN BANNER + MINI GAME === -->
+<!-- Footer -->
+  <footer class="py-10">
+    <div class="max-w-6xl mx-auto px-4 text-sm text-slate-500 flex flex-col md:flex-row items-center justify-between gap-3">
+      <p>&copy; <span id="year"></span> Karim Bel Hadj Ali. Alle Rechte vorbehalten.</p>
+      <div class="flex items-center gap-3">
+        <a class="hover:text-slate-700" href="#top">Impressum (Platzhalter)</a>
+        <span aria-hidden="true">·</span>
+        <a class="hover:text-slate-700" href="#top">Datenschutz (Platzhalter)</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Contact form: open mailto with prefill
+    function handleSubmit(e) {
+      e.preventDefault();
+      const data = Object.fromEntries(new FormData(e.target).entries());
+      const subject = encodeURIComponent('Projektanfrage – ' + (data.name || '')); 
+      const body = encodeURIComponent(
+        `Hallo Karim,\n\n` +
+        `mein Name: ${data.name || ''}\n` +
+        `E-Mail: ${data.email || ''}\n` +
+        `Firma: ${data.firma || ''}\n\n` +
+        `Anliegen: ${data.nachricht || ''}\n\n` +
+        `Beste Grüße`
+      );
+      window.location.href = `mailto:karim.belhajali@icloud.com?subject=${subject}&body=${body}`;
+    }
+
+    // Logo scroller buttons + auto slide
+    const scroller = document.getElementById('logoScroller');
+    const prevBtn = document.getElementById('logosPrev');
+    const nextBtn = document.getElementById('logosNext');
+
+    function slideBy(dir=1){
+      scroller.scrollBy({ left: 220 * dir, behavior: 'smooth' });
+    }
+    prevBtn.addEventListener('click', () => slideBy(-1));
+    nextBtn.addEventListener('click', () => slideBy(1));
+
+    // Auto slide & loop perception
+    let auto = setInterval(()=>slideBy(1), 2500);
+    scroller.addEventListener('mouseenter', ()=> clearInterval(auto));
+    scroller.addEventListener('mouseleave', ()=> auto = setInterval(()=>slideBy(1), 2500));
+  </script>
 
