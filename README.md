@@ -142,6 +142,38 @@
     <img src="wissenswerft-logo.png" alt="Wissenswerft" class="h-12 object-contain mb-2" />
     <span class="text-sm font-medium text-slate-700">Wissenswerft</span>
   </div>
+  <!-- 3D-gedruckte Brennstoffzelle -->
+  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center">
+    <img src="brennstoffzelle-cad.png" alt="3D-gedruckte Brennstoffzelle – CAD" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-semibold text-slate-800 text-center">3D-gedruckte Brennstoffzelle</span>
+    <p class="mt-2 text-xs text-slate-600 text-center leading-relaxed">
+      Entwicklung & Erprobung einer <strong>3D-gedruckten Brennstoffzelle</strong>; 
+      <strong>Aufhärtung von Kohlenstofffasern</strong> für Leichtbau-Autoteile. 
+      <strong>CAD-Konstruktion & Simulation</strong>, Materialtests und Übertragbarkeit auf weitere F&E-Projekte.
+    </p>
+  </div>
+
+  <!-- ERP mit Outlook, Excel & Power BI -->
+  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center">
+    <img src="erp-system.png" alt="ERP-System auf Outlook, Excel und Power BI" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-semibold text-slate-800 text-center">Lean-ERP (Outlook · Excel · Power BI)</span>
+    <p class="mt-2 text-xs text-slate-600 text-center leading-relaxed">
+      Konzeption & Implementierung eines <strong>leichtgewichtigen ERP</strong> auf Microsoft-Basis:
+      <strong>Outlook</strong> Workflows, <strong>Excel</strong> Stammdaten & Datenmodell, 
+      <strong>Power BI</strong> KPIs/Dashboards. Automatisierte Freigaben, Einkauf/Controlling-Schnittstellen, Reporting.
+    </p>
+  </div>
+
+  <!-- Smart Supply Chain / Ramp-up -->
+  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center">
+    <img src="smart-supplychain.png" alt="Smart Supply Chain – Ramp-up, FIFO/LIFO" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-semibold text-slate-800 text-center">Smart Supply Chain & Ramp-up</span>
+    <p class="mt-2 text-xs text-slate-600 text-center leading-relaxed">
+      Planung einer <strong>Smart Supply Chain</strong> (FHT) inkl. <strong>Ramp-up-Management</strong>; 
+      <strong>FIFO/LIFO</strong> für Bestände & Materialfluss, Takt/Kapazität, Lieferanten-Onboarding, 
+      KPI-Monitoring (Servicegrad, OTD, WIP).
+    </p>
+  </div>
 
 </div>
 
