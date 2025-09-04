@@ -61,7 +61,7 @@
             </a>
             <span class="inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-slate-300 bg-white font-semibold">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.25c-4.28 0-7.75 3.47-7.75 7.75 0 5.81 7.75 11.75 7.75 11.75s7.75-5.94 7.75-11.75c0-4.28-3.47-7.75-7.75-7.75Zm0 10.25a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z"/></svg>
-              Hannover · Stammestraße 48a
+              Hannover 
             </span>
           </div>
         </div>
@@ -300,7 +300,7 @@
           <ul class="mt-3 text-sm space-y-1 pl-0 list-none">
   <li><strong>E-Mail:</strong> <a class="text-blue-700 underline" href="mailto:karim.belhajali@icloud.com">karim.belhajali@icloud.com</a></li>
   <li><strong>Telefon:</strong> <a class="text-blue-700 underline" href="tel:+491728890424">+49 172 8890424</a></li>
-  <li><strong>Adresse:</strong> Stammestraße 48a, 30459 Hannover</li>
+  <li><strong>Adresse:</strong> Hannover </li>
   <li><strong>Verfügbarkeit:</strong> ab sofort</li>
 </ul>
         
