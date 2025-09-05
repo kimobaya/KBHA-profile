@@ -142,7 +142,15 @@
     <img src="wissenswerft-logo.png" alt="Wissenswerft" class="h-12 object-contain mb-2" />
     <span class="text-sm font-medium text-slate-700">Wissenswerft</span>
   </div>
-  
+
+  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
+    <img src="tunisair-logo.png" alt="Tunisair" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">Tunisair</span>
+  </div>
+  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
+    <img src="amazon-logo.png" alt="Amazon" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">Amazon</span>
+  </div>
    <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
     <img src="Airbus-logo.png" alt="Airbus" class="h-12 object-contain mb-2" />
     <span class="text-sm font-medium text-slate-700">Airbus</span>
