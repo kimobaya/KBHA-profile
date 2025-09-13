@@ -427,32 +427,15 @@
     </div>
   </footer>
   
- <div class="social-links">
-  <a href="https://de.linkedin.com/in/karim-bel-hadj-ali-579b10371/en" target="_blank">
-    <img src="linkedin-icon.png" alt="LinkedIn" class="social-icon">
+  <!-- Social-Logos nebeneinander (nur HTML mit Inline-Styles) -->
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; margin-top:20px;">
+  <a href="https://de.linkedin.com/in/karim-bel-hadj-ali-579b10371/en" target="_blank" rel="noopener" title="LinkedIn">
+    <img src="linkedin-logo.svg" alt="LinkedIn" style="height:50px; width:auto; display:block; object-fit:contain;">
   </a>
-  <a href="https://www.xing.com/profile/Karim_BelHadjAli017074/web_profiles" target="_blank">
-    <img src="xing-icon.png" alt="Xing" class="social-icon">
+  <a href="https://www.xing.com/profile/Karim_BelHadjAli017074/web_profiles" target="_blank" rel="noopener" title="Xing">
+    <img src="xing-logo.svg" alt="Xing" style="height:50px; width:auto; display:block; object-fit:contain;">
   </a>
 </div>
-
-.social-links {
-  display: flex;             /* Logos nebeneinander */
-  justify-content: center;   /* zentriert auf der Seite */
-  gap: 20px;                 /* Abstand zwischen Logos */
-  margin-top: 20px;
-}
-
-.social-logo {
-  height: 50px;   /* gleiche Höhe wie deine Referenzen-Logos */
-  width: auto;    /* Breite proportional */
-  object-fit: contain;
-  transition: transform 0.2s ease;
-}
-
-.social-logo:hover {
-  transform: scale(1.05); /* leichter Hover-Effekt */
-}
 
 
   <script>
