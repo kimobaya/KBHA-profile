@@ -436,15 +436,24 @@
   </a>
 </div>
 
- .social-icon {
-  width: 24px;   /* kleinere Größe, z. B. 24px statt 32px */
-  height: auto;
+.social-links {
+  display: flex;             /* Logos nebeneinander */
+  justify-content: center;   /* zentriert auf der Seite */
+  gap: 20px;                 /* Abstand zwischen Logos */
+  margin-top: 20px;
+}
+
+.social-logo {
+  height: 50px;   /* gleiche Höhe wie deine Referenzen-Logos */
+  width: auto;    /* Breite proportional */
+  object-fit: contain;
   transition: transform 0.2s ease;
 }
 
-.social-icon:hover {
-  transform: scale(1.1);
+.social-logo:hover {
+  transform: scale(1.05); /* leichter Hover-Effekt */
 }
+
 
   <script>
     // Footer year
