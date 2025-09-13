@@ -305,7 +305,7 @@
             <textarea required name="nachricht" placeholder="Kurz Ihr Anliegen" rows="4" class="w-full rounded-xl border border-slate-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-400 md:col-span-2"></textarea>
             <button class="inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-blue-600 text-white font-semibold shadow hover:bg-blue-700 md:col-span-2">Nachricht senden</button>
           </form>
-          <p id="formNote" class="mt-3 text-xs text-slate-500">Diese Demo sendet keine E-Mails – sie öffnet Ihr E-Mail-Programm mit einer vorgefüllten Nachricht.</p>
+          <p id="formNote" class="mt-3 text-xs text-slate-500">Hinweis: Dieses Kontaktformular verschickt keine E-Mails direkt. Stattdessen öffnet es Ihr E-Mail-Programm mit einer vorbereiteten Nachricht.</p>
         </div>
         <aside class="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
           <h3 class="font-bold">Direktkontakt</h3>
