@@ -430,10 +430,10 @@
   <!-- Social-Logos nebeneinander (nur HTML mit Inline-Styles) -->
 <div style="display:flex; justify-content:center; align-items:center; gap:16px; margin-top:20px;">
   <a href="https://de.linkedin.com/in/karim-bel-hadj-ali-579b10371/en" target="_blank" rel="noopener" title="LinkedIn">
-    <img src="linkedin-icon.png" alt="LinkedIn" style="height:50px; width:auto; display:block; object-fit:contain;">
+    <img src="linkedin-icon.svg" alt="LinkedIn" style="height:50px; width:auto; display:block; object-fit:contain;">
   </a>
   <a href="https://www.xing.com/profile/Karim_BelHadjAli017074/web_profiles" target="_blank" rel="noopener" title="Xing">
-    <img src="xing-icon.png" alt="Xing" style="height:50px; width:auto; display:block; object-fit:contain;">
+    <img src="xing-icon.svg" alt="Xing" style="height:50px; width:auto; display:block; object-fit:contain;">
   </a>
 </div>
 
