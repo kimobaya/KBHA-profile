@@ -432,7 +432,7 @@
   <a href="https://www.linkedin.com/in/DEIN-PROFIL" target="_blank">
     <img src="linkedin-icon.png" alt="LinkedIn" width="32">
   </a>
-  <a href="https://www.xing.com/profile/DEIN-PROFIL" target="_blank">
+  <a href="https://www.xing.com/profile/Karim_BelHadjAli017074/web_profiles" target="_blank">
     <img src="xing-icon.png" alt="Xing" width="32">
   </a>
 </div>
