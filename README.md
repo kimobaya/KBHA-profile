@@ -434,7 +434,9 @@
   <a href="https://www.xing.com/profile/Karim_BelHadjAli017074/web_profiles" target="_blank">
     <img src="xing-icon.png" alt="Xing" class="social-icon">
   </a>
-   .social-icon {
+</div>
+
+ .social-icon {
   width: 24px;   /* kleinere Größe, z. B. 24px statt 32px */
   height: auto;
   transition: transform 0.2s ease;
@@ -443,9 +445,6 @@
 .social-icon:hover {
   transform: scale(1.1);
 }
-
-</div>
-
 
   <script>
     // Footer year
