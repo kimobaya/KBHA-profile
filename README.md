@@ -427,15 +427,16 @@
     </div>
   </footer>
   
-  //linkedIn
-<div class="social-links">
-  <a href="https://www.linkedin.com/in/DEIN-PROFIL" target="_blank">
-    <img src="linkedin-icon.png" alt="LinkedIn" width="32">
+ <div class="social-links">
+  <a href="https://de.linkedin.com/in/karim-bel-hadj-ali-579b10371/en" target="_blank">
+    <img src="linkedin-icon.png" alt="LinkedIn" class="social-icon">
   </a>
   <a href="https://www.xing.com/profile/Karim_BelHadjAli017074/web_profiles" target="_blank">
-    <img src="xing-icon.png" alt="Xing" width="32">
+    <img src="xing-icon.png" alt="Xing" class="social-icon">
   </a>
 </div>
+
+
   <script>
     // Footer year
     document.getElementById('year').textContent = new Date().getFullYear();
