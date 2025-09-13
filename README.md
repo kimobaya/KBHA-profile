@@ -426,7 +426,16 @@
       </div>
     </div>
   </footer>
-
+  
+  //linkedIn
+<div class="social-links">
+  <a href="https://www.linkedin.com/in/DEIN-PROFIL" target="_blank">
+    <img src="linkedin-icon.png" alt="LinkedIn" width="32">
+  </a>
+  <a href="https://www.xing.com/profile/DEIN-PROFIL" target="_blank">
+    <img src="xing-icon.png" alt="Xing" width="32">
+  </a>
+</div>
   <script>
     // Footer year
     document.getElementById('year').textContent = new Date().getFullYear();
